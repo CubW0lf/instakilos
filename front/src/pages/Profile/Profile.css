@@ -1,0 +1,98 @@
+.Profile .Stories {
+    margin-top: 0;
+}
+
+.Profile header,
+.Profile .profile-infos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vw;
+}
+
+.Profile .profile-infos span {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Profile .bio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2vw;
+}
+
+.Profile .social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Profile .action {
+    width: auto;
+    border-radius: 5px;
+    padding: 2vw;
+    font-size: 2vh;
+    line-height: 1;
+    margin: 0;
+}
+
+.Profile .feed_type_icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6vh;
+}
+
+.Profile .feed_type {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.Profile .feed_type:nth-child(1) {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.4);
+}
+
+.Profile .feed_type_icons svg {
+    font-size: 4vh;
+}
+
+.Profile .feed {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1px;
+}
+
+.Profile .profile-header {
+    color: var(--dark);
+    position: relative;
+}
+
+.Profile .profile-header svg {
+    font-size: 3vh;
+}
+
+.Profile .profile-header span {
+    font-size: 2vh;
+}
+
+.Profile .profile-header .slug {
+    text-transform: lowercase;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.Profile .profile-header div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 15vw;
+}

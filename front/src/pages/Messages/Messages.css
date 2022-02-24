@@ -1,0 +1,74 @@
+.Messages header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vh 5vw 1vh 5vw;
+}
+
+.Messages header svg {
+    font-size: 4vh;
+}
+
+.Messages header .left,
+.Messages header .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Messages .left span {
+    font-weight: 500;
+}
+
+.Messages .search {
+    padding: 2vw;
+    color: var(--dark);
+}
+
+.Messages .search .input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 2vw;
+}
+
+.Messages .search .input svg {
+    font-size: 3vh;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.Messages .boxes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7vh;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.Messages .boxes div {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: var(--dark);
+}
+
+.Messages .boxes div.active {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.9);
+}
+
+.Messages .list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2vw;
+}
+
+.Messages .list a {
+    width: 100%;
+}

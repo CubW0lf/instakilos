@@ -1,0 +1,28 @@
+.Header {
+    width: 100%;
+    padding-top: 1vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Header .title h1 {
+    font-family: var(--titleFont);
+    font-size: 2rem;
+    font-weight: 100;
+    color: var(--dark);
+}
+
+.Header .actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 25vw;
+}
+
+.Header svg {
+    font-size: 4vh;
+}

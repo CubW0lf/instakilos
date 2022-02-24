@@ -1,0 +1,41 @@
+.StoryItem {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.StoryItem:not(last-child) {
+    margin-right: 4vw;
+}
+
+.StoryItem .bg {
+    content: "";
+    position: relative;
+    background: linear-gradient(#d62976, #fa7e1e);
+    border-radius: 50%;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 10vh;
+    height: 10vh;
+    z-index: 1;
+}
+
+.StoryItem .bg img {
+    height: 92%;
+    width: 92%;
+    border: 2.5px solid var(--white);
+    object-fit: cover;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.StoryItem span {
+    text-transform: lowercase;
+}

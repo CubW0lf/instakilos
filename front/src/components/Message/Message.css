@@ -1,0 +1,34 @@
+.Message {
+    margin-bottom: 1vh;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+.Message .avatar {
+    height: 5vh;
+    width: 5vh;
+    border-radius: 50%;
+    margin-right: 2vw;
+}
+
+.Message .content {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    padding: 3vw;
+    width: auto;
+    max-width: 75vw;
+    height: 100%;
+}
+
+.Message.me {
+    justify-content: flex-end;
+}
+
+.Message.me .content {
+    background-color: #eee;
+    border-color: var(--white);
+}

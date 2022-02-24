@@ -1,0 +1,27 @@
+.PhoneInfos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    height: 3vh;
+}
+
+.PhoneInfos .hour {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+}
+
+.PhoneInfos .network {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30vw;
+}
+
+.PhoneInfos .hour {
+    color: var(--dark);
+}

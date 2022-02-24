@@ -1,0 +1,77 @@
+.Post {
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+    color: var(--dark);
+}
+
+.Post header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vw;
+}
+
+.Post header .left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Post .avatar {
+    height: 7vh;
+    width: 7vh;
+    object-fit: cover;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.Post .avatar::before {
+    content: "";
+    position: absolute;
+    display: block;
+    background: linear-gradient(#d62976, #fa7e1e);
+    border-radius: 50%;
+    background-color: red;
+    width: 11vh;
+    height: 11vh;
+    left: 50%;
+    transform: translate(-50%, -63%);
+    top: 50%;
+    z-index: 1;
+}
+
+.Post header .left .infos {
+    margin-left: 2vw;
+}
+
+.Post header h2 {
+    font-size: 1rem;
+}
+
+.Post .picture {
+    width: 100%;
+    height: 80vw;
+    object-fit: cover;
+}
+
+.Post footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vw;
+}
+
+.Post footer .actions ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 25vw;
+}
+
+.Post footer .actions ul li svg {
+    font-size: 4vh;
+}
+
+.Post .bookmark svg {
+    font-size: 3vh;
+}

@@ -1,0 +1,56 @@
+.messenger-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    height: 10vh;
+    width: 100%;
+    padding: 2vw;
+    background-color: var(--white);
+}
+
+.messenger-header .avatar {
+    content: "";
+    position: relative;
+    background: linear-gradient(#d62976, #fa7e1e);
+    border-radius: 50%;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 6vh;
+    height: 6vh;
+    z-index: 1;
+}
+
+.messenger-header .avatar img {
+    height: 95%;
+    width: 95%;
+    border: 2px solid var(--white);
+    object-fit: cover;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.messenger-header .pseudos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 2vw;
+}
+
+.messenger-header .pseudos span:nth-child(1) {
+    font-weight: bold;
+}
+
+.messenger-header .pseudos span:nth-child(2) {
+    color: rgba(0, 0, 0, 0.3);
+    text-transform: lowercase;
+    font-size: 0.8rem;
+}
+
+.messenger-header svg {
+    font-size: 3vh;
+}

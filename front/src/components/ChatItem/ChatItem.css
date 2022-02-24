@@ -1,0 +1,43 @@
+.ChatItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 2vh;
+}
+
+.ChatItem .left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ChatItem img {
+    height: 8.5vh;
+    width: 8.5vh;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.ChatItem .infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 2vw;
+}
+
+.ChatItem .pseudo {
+    font-size: 0.9rem;
+}
+
+.ChatItem .online {
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 0.8rem;
+}
+
+.ChatItem .camera {
+    font-size: 4vh;
+    color: rgba(0, 0, 0, 0.5);
+    line-height: 1;
+}
